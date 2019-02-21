@@ -40,7 +40,7 @@ class body():
         tk.Button(text='Exit',width = 15,command=lambda:interface.destroy()).place(x=470,y=215)
         interface.mainloop()
                 
-#Initialize data base      
+#create data base      
     def DB(self,x,y=''):
         db = sqlite3.connect('data_base.db')
         cursor = db.cursor()
@@ -50,7 +50,7 @@ class body():
         db.commit()
         db.close()
         
-#Initialize the add functionn        
+#create the add functionn        
     def new_student(self):
         new_st=tk.Tk()
         new_st.geometry('550x600+600+200')
@@ -95,7 +95,7 @@ class body():
         new_st.mainloop()
         
         
-#Initialize the delete function 
+#create the delete function 
        
     def delete_student(self):
              delete =tk.Tk()
@@ -129,7 +129,7 @@ class body():
             clear_Data.mainloop()
             
             
-#Initialize the view function          
+#create the view function          
     def view_student(self):
             StudentV=body()
     
