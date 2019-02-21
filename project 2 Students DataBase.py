@@ -26,7 +26,7 @@ class body():
         self.GPA=gpa
         self.grade=grade
         
-#initaliz main page        
+#create main page        
     def main(self):
         interface=tk.Tk()
         interface.geometry('600x250+300+300')
@@ -113,7 +113,7 @@ class body():
              delete.mainloop()
              
                         
-#Initialize the clear function            
+#create the clear function            
     def clear_DataBase(self):
             clear_Data=tk.Tk()
             clear_Data.geometry('400x150+300+300')
